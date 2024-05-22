@@ -1,0 +1,15 @@
+# This config file is used to store the parser settings in YAML format
+
+sites:      # The "sites" section contains a list of sites for parsing
+  - name: "Hh ru"
+    url: "here is your site-URL"
+
+    selectors:  ##CSS selector for scraping data from a web page
+      item: "here is css-selector"
+      title: "here is css-selector"
+
+
+storage:
+  type: "file"
+  file_path: "data/contains.json"
+
